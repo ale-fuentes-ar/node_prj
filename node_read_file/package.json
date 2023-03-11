@@ -4,6 +4,12 @@
   "description": "read a file from system",
   "main": "index.js",
   "repository": "https://github.com/ale-fuentes-ar/node_read_file.git",
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Alefuentes",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
 }
