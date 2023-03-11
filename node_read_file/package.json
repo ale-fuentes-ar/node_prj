@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "read a file from system",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/ale-fuentes-ar/node_read_file.git",
   "scripts": {
     "start": "node index.js"

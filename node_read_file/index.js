@@ -1,5 +1,7 @@
+import Chalk from 'chalk';
+
 function testing() {
-    console.log(`Hello\nusing ${process.version} node`);
+    console.log(Chalk.red(`Hello\nusing ${process.version} node`));
 }
 
 testing();
