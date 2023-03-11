@@ -11,6 +11,7 @@
   "author": "Alefuentes",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.2.0"
+    "chalk": "^5.2.0",
+    "csvtojson": "^2.0.10"
   }
 }
