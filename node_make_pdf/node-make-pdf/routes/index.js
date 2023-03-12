@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
+const pdfController = require('../feature/controllers/pdf.controller');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/', pdfController.print);
 
 module.exports = router;
