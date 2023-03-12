@@ -2,7 +2,6 @@ const fs = require('fs');
 const readFile = require('util').promisify(fs.readFile);
 const hbs = require('hbs');
 const pdf = require('html-pdf');
-const { buffer } = require('stream/consumers');
 
 exports.print = async (req,res) => {
     const invoiceItems = [
@@ -21,7 +20,7 @@ exports.print = async (req,res) => {
 
     const content = await readFile('views/invoice.hbs', 'utf8');
     const template = hbs.compile(content);
-    const html = template({invoiceItems, invoiceData});
+    const html = template({ invoiceItems, invoiceData });
     
     const options = {
         base: `${req.protocol}://${req.get('host')}`,
