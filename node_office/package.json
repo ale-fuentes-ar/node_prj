@@ -1,0 +1,8 @@
+{
+  "name": "node_office",
+  "version": "1.0.0",
+  "description": "Project for use office's template",
+  "main": "index.js",
+  "author": "ale fuentes",
+  "license": "MIT"
+}
