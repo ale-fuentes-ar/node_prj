@@ -1,0 +1,22 @@
+{
+  "name": "node_example",
+  "version": "1.0.0",
+  "description": "this project is for learn node, a simple project",
+  "main": "index.js",
+  "author": "ale.fuentes.ar",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.1",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
