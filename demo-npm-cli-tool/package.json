@@ -1,0 +1,23 @@
+{
+  "name": "demo-npm-cli-tool",
+  "version": "1.0.0",
+  "description": "demo the how to use cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/ale-fuentes-ar/node_prj.git",
+  "homepage": "https://github.com/ale-fuentes-ar/node_prj.git#readme",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "ale.fuentes.ar",
+  "bin": "./index.js",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "inquirer": "^9.2.0"
+  }
+}
